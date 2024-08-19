@@ -1,0 +1,139 @@
+/* ショッピング（ページ）
+----------------------------------------------- */
+div#shoppingcolumn {
+    margin: 10px auto 0 auto;
+}
+div#shoppingcolumn p{
+    margin: 0 auto;
+    font-size: 90%;
+    color: #333333;
+}
+div#shoppingcolumn table {
+    width: 300px;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 0;
+}
+div#shoppingcolumn th {
+    padding: 5px;
+    color:#ea5761;
+    background: #fbf3ff;
+}
+
+div#shoppingcolumn td {
+    padding: 5px;
+    color:#000000;
+}
+
+/* ショッピング（ページ内制御）
+----------------------------------------------- */
+
+.shopping_inner {
+    margin: 10px auto 0 auto;
+    padding: 5px;
+}
+.shopping_inner p{
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 90%;
+    color: #333333;
+}
+.shopping_inner h2{
+    margin: 0 auto;
+	padding:10px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background:#ea68a2;
+}
+.shopping_inner h3{
+	margin:10px auto;
+	padding:0;
+	font-size:14px;
+    font-weight:bold;
+	color:#ea5761;
+}
+
+.inputbox{
+	margin:10px auto;
+	padding:0;
+}
+
+.input_tx {
+    padding: 5px;
+    font: 12px;
+    color: #000000;
+}
+
+.resulttd {
+    width: 310px;
+    margin: 5px auto 0 auto;
+    padding: 10px 5px;
+    text-align: left;
+    background: #e9f4f9;
+}
+
+.resulttd_right {
+    width: 100%;
+    margin: 5px auto 0 auto;
+    padding: 10px 5px;
+    text-align: right;
+    font-weight:bold;
+}
+
+/* カート内部（カートの中ページ）
+----------------------------------------------- */
+.in_cart_all {
+    margin: 0 0 10px 0;
+    padding: 5px;
+    overflow: hidden;
+    clear: both;
+    border-bottom: 1px dashed #ea5761;
+}
+
+.cart_pic {
+    width: 65px;
+    margin: 5px;
+    padding: 0;
+    float: left;
+}
+.cart_num {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.cart_delete {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.cart_info{
+    margin: 0;
+    padding: 0;
+    width: 210px;
+    float: right;
+}
+.cart_total{
+    margin: 5px 0;
+    padding: 10px;
+    background: #ffe0e4;
+}
+.point_info{
+    margin: 5px 0;
+    padding: 0;
+    float: left;
+    clear: both;
+}
+.explanation{
+    font-size: 10px;
+    line-height: 120%;
+}
+
+
+
+
+
+

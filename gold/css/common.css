@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* CSS Document */
+
+       #container {
+		   width: 100% !important;
+		   padding:0 !important;}
+		   
+	   #lpshoppingcolumn{
+		   max-width:1000px !important;
+		   margin:100px auto !important;}
+	   
+			
+		h1,h2,h3,h4,h5,h6,pre,p,ul,ol,li,dl,dt,dd,th,td,div{
+			margin: 0; 
+			padding: 0;
+			font-weight:normal;
+			font-size:100%;}
+		
+		ul,ol,li,dl,dt,dd{
+			list-style-type: none;}
+		
+		a{color:#283554; text-decoration: none; font-weight:bold;}
+		a:hover{color:#7E89AA;}
+		
+		img {border: none;}
+		
+		a:hover img {
+		  opacity: 0.8;
+		  filter: alpha(opacity=90);
+		  -ms-filter: "alpha(opacity=90)";
+		}
+		
+			
+		/*
+		***********************************
+		*float
+		***********************************
+		*/
+		
+		.floatR{float:right;}
+		.floatL{float:left;}
+		.clear{clear:both; width:100%;}
+		.clearfix:after{display:block;clear:both;}
+			
+		/*
+		***********************************
+		*margin&padding
+		***********************************
+		*/
+		
+		.MT20{margin-top:20px;}
+		.MB40{margin-bottom:40px;}
+		.MTB30{margin:30px 0;}
+		.no{margin: 0px;padding: 0px;}
+		
+		
+		/*
+		***********************************
+		*img
+		***********************************
+		*/
+			
+		
+		.dsp_50per{
+			width:50%;
+			margin:0 auto;
+			text-align:center;}
+			
+		.dsp_60per{
+			width:60%;
+			margin:0 auto;
+			text-align:center;}
+			
+			
+		.dsp_70per{
+			width:70%;
+			margin:0 auto;
+			text-align:center;}
+			
+	
+        /*
+		***********************************
+		*PAGE TOP
+		***********************************
+		*/
+		
+		
+		.pagetop {
+			display: none;
+			position: fixed;
+			bottom: 30px;
+			right: 30px;
+			z-index:100000000000;}
+			
+			
+		.pagetop a {
+			display: block;
+			background-color:#999;
+			text-align: center;
+			color: #FFF;
+			font-size: 10px;
+			padding: 5px 10px;
+			letter-spacing:1px;
+			border-radius: 3px;        /* CSS3草案 */  
+			-webkit-border-radius: 3px;    /* Safari,Google Chrome用 */  
+			-moz-border-radius: 3px;   /* Firefox用 */  }
+			
+			
+		.pagetop a:hover {
+			z-index:1000000000000000;
+			display: block;
+			background-color:#DDD;
+			text-align: center;
+			color: #fff;
+			font-size: 10px;
+			padding: 5px 10px;
+			letter-spacing:1px;
+			border-radius: 3px;        /* CSS3草案 */  
+			-webkit-border-radius: 3px;    /* Safari,Google Chrome用 */  
+			-moz-border-radius: 3px;   /* Firefox用 */  }
+			
+			
+			
+		@media screen and (max-width:499px){
+				
+			.pagetop {
+			bottom: 10px;
+			right: 30px;}
+				
+				
+				
+			}
+		
+		
+		/*
+		***********************************
+		*text&font
+		***********************************
+		*/
+		
+		.white{color:#FFFFFF;}
+		.bold{font-weight:bold;}
+		.center{text-align:center;}
+		.txt_emph{
+			font-weight:bold;
+			color:#AD3232;}
+		.txtR{text-align:right;}
+		.font17{font-size:17px;}
+		.font10{font-size:10px;}
+		.font22{font-size:22px;}
+		
+		.font12{font-size:12px;
+		        line-height:170%;}
+				
+				
+				
+		
+		/*	トップページ  */
+		
+		#top_smp_mainban{
+			width:100%;}
+
+
+		/*	PCページワイド調整 */			
+			
+		#pc_limited{
+			width:40% !important;
+			margin:0 25% !important;
+			padding:0 5%;
+			background-color:#CCC;}
+		
+		
+
+	
+			
+	
+	

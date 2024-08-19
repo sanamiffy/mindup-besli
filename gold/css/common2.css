@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*	トップページ  */
+		
+		#top_smp_mainban{
+			width:100%;
+			margin:20px 0;}
+			
+		#top_smp_mainban img{
+			width:90%;
+			margin:0 5%;
+			border:1px #666666 solid;}
+
+
+#guidecolumn{
+	width:90% !important;
+	margin:0 5% !important;}
+	
+#guidecolumn table{
+	width:100%;
+	overflow:hidden;}
+	
+#guidecolumn table img{
+	width:100% !important;}
+	
+#guidecolumn th{
+	width:40% !important;}
+	
+#guidecolumn td{
+	width:60% !important;}
+	
+	
+	
+#guidecolumn_smp{
+	width:90% !important;
+	margin:0 5% !important;}
+	
+#guidecolumn_smp table{
+	width:100%;
+	overflow:hidden;}
+	
+#guidecolumn_smp table img{
+	width:100% !important;}
+	
+#guidecolumn_smp th{
+	width:40% !important;}
+	
+#guidecolumn_smp td{
+	width:60% !important;}
+	
+	

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>404 Page Not Found</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<style type="text/css">
+body{
+    font-family: "ＭＳ Ｐゴシック",Arial,Helvetica,sans-serif,HiraKakuProN-W3,HiraKakuProN-W6;
+    color: #555;
+    font-size:100%;
+    line-height: 130%;
+    font-weight: normal;
+    margin:0;
+    padding:0;
+}
+h1{
+    margin:0 auto 50px auto;
+    font-weight:normal;
+    font-size:350%;
+    line-height:2rem;
+    color:#aaa;
+}
+a{
+    border-radius: 3px;
+    border: 1px solid transparent;
+    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+    background-color: #fafafa;
+    color: #555;
+    border-color: #ddd;
+    border-bottom-color: #ddd;
+    display: inline-block;
+    padding: 8px 14px;
+    font-size: 16px;
+    font-weight:normal;
+    line-height: 150%;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration:none;
+}
+a:hover{background-color:#4a89be;color:#fff;border-color:#4a89be;}
+.no_page{width:100%;height:700px;position: relative;}
+.nopage_txt{position: absolute;top: 0;right: 0;bottom: 0;left: 0;margin:auto;width:600px;height:300px;text-align:center;}
+.nopage_txt p{text-align:center;font-size:80%;line-height:1.5rem;}
+.mgtb30{margin:30px auto;}
+</style>
+</head>
+<body>
+<!--
+PCページのリンク切れURLへのアクセス時に表示されるhtmlです。
+
+このファイルをダウンロードして編集し、gold ディレクトリ直下にアップロードして下さい。
+gold/pc404.html
+
+実際に表示される内容は、
+https://ドメイン/pc404.php
+にアクセスしてご確認下さい。
+
+編集する際は高機能テキストエディタにてこちらのコメント部分を削除し、
+「UTF-8のBOM無し」で保存してアップロードして下さい。
+
+gold/pc404.html
+が存在しない場合はシステムで自動で表示されます。
+
+画像ファイル等へのパスは相対URLではなく、サーバ相対URL(スラッシュで始まるURL)で記述して下さい。
+[誤]<img src="./404_img.jpg">
+[正]<img src="/gold/404_img.jpg">
+-->
+<div class="no_page">
+    <div class="nopage_txt">
+        <h1>404 Page Not Found</h1>
+        <p>
+            申し訳ございませんが、お客様のアクセスしたページを見つけることができませんでした。<br>
+            指定されたURLが間違っているか、お探しのページが移動または削除された可能性がございます。<br>
+            お手数ですが、下記リンクからお探しください。
+        </p>
+        
+        <div class="mgtb30">
+            <p><a href="/">トップページへ</a></p>
+        </div>
+    </div>
+</div> 
+</body>
+</html>

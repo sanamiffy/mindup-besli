@@ -1,0 +1,356 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	
+	
+/*
+***********************************
+*コンテンツ
+***********************************
+*/	
+
+       #mu_lp {
+		   width:100%;
+			font-family:"游ゴシック体", "Yu Gothic", YuGothic,   "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ", Meiryo, Osaka,  "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+			margin:0;
+			padding:0;
+			text-align:left;
+			font-size:14px;
+			line-height:200%;
+			letter-spacing:1px;
+			color:#4c4c4c;}
+	
+	
+	
+	    #mu_top_mainvis{
+			background-image:url(../img/mindup/top/top_mainvis.jpg);
+			width:auto;
+			height:650px;
+			background-size: cover;
+			background-position:center;
+			background-repeat:no-repeat;}
+			
+			
+
+			
+			
+		/*横幅規定_共通*/		 
+		
+		#mu_top_element_in,#mu_top_doctor_in,#mu_top_voice_in,#concern1_in,#mu_top_element2_in,#mu_top_doctor3_in,#element2_list,mu_top_explain_list2,#mu_last01_in,#mu_made{
+			width:100%;
+			max-width:1100px;
+			margin:0 auto;
+			text-align:center;}
+			
+		/*トップベース青背景*/	
+		
+        #mu_top_doctor,#mu_top_doctor3,#mu_top_explain_list1,#mu_last01,#mu_month{
+			 background-color:#DDEAFF;}
+		
+	
+		/*トップ画像下テキスト*/			
+		#maincopy{
+			width:96%;
+			text-align:center;
+			background-color:#283554;
+			padding:10px 2%;
+			font-size:18px;
+			font-weight:bold;
+			letter-spacing:2px;
+			color:#FFF;}
+		
+		
+		/*成分表記_トップ*/	
+		
+		#mu_top_element{
+			background-color:#FFF;
+			padding:30px 0;}
+		
+
+
+			 
+		/*お客様の声_トップ*/
+			 
+	    #mu_top_voice{
+			background-color:#e7e7e5;}
+			 
+			 
+			 
+		/*購入分岐ボタン*/	
+		 
+	    .mu_top_buy{
+			background-color:#DDEAFF;
+			width:80%;
+			padding:100px 10%;
+			font-size:16px;}
+		
+		.mu_top_buy ul li{
+			width:45%;
+			float:left;
+			margin-right:10%;
+			background-color:#FFF;}
+					
+			
+		.mu_top_buy ul li:nth-child(2n){
+			margin-right:0;}
+			
+		.mu_top_buy ul:after{display:block;clear:both;content:"";}	
+		
+		
+		
+		
+		.single_buy_btn{
+			background-color:#CBD79C;
+			color:#263977;
+			font-weight:bold;
+			padding:20px 3%;
+			width:94%;
+			text-align:center;}
+			
+		a:hover .single_buy_btn {
+			background-color:#9DD6A5;}	
+			
+		.monthly_buy_btn{
+			background-color:#F7C1C1;
+			color:#263977;
+			font-weight:bold;
+			padding:20px 3%;
+			width:94%;
+			text-align:center;}
+			
+		a:hover .monthly_buy_btn {
+			background-color:#F4E6C1;}	
+		
+
+		/*悩み*/	
+	    #concern1{
+			width:100%;
+			background-color:#4D5A74;}		
+			
+	     #concern2{
+			width:100%;
+			height:auto;
+			background-image:url(../img/mindup/concern/concern02_bk.jpg);
+			background-size: cover;
+			background-position:center;
+			background-repeat:no-repeat;
+			}			 
+			 
+			
+		#concern2_in{
+			width:100%;
+			max-width:735px;
+			margin:0 auto;
+			text-align:center;}
+		
+		#mu_dctr_talk{
+			width:80%;
+			margin:0 10%;}
+			
+		.pt_section:after{display:block;clear:both;content:"";}	
+		
+		
+		.pt_section{ margin:40px 0;}
+		
+		.pt_left{
+			width:40%;
+			float:left;
+			margin-right:5%;}
+			
+		.txt_right{
+			width:55%;
+			float:left;}
+	
+	
+	
+		/*ドクター経験談*/		
+		
+		
+		#mu_dctr_talk{margin:80px auto;}
+		
+		#mu_dctr_talk1_cont dt,#mu_dctr_talk2 dt{
+			width:90%;
+			text-align:center;
+			background-color:#283554;
+			padding:10px 5%;
+			font-weight:bold;
+			letter-spacing:1px;
+			font-size:16px;
+			color:#FFF;
+			margin:30px 0 30px 0;
+			border-radius: 5px;        /* CSS3草案 */  
+			-webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+			-moz-border-radius: 5px;   /* Firefox用 */}
+			
+		#mu_dctr_talk1:after{display:block;clear:both;content:"";}	
+		
+		#mu_dctr_prof{
+			width:38%;
+			float:left;
+			margin-right:5%;}
+			
+		#mu_dctr_talk1_cont{
+			width:57%;
+			float:left;}
+			
+		.dctr_talk_img{
+			width:80%;
+			margin:0 10%;}
+			
+		.dctr_talk_img2{
+			width:75%;
+			margin:10px 0 30px 0;}
+			
+		.txt_strong{
+			font-size:15px;
+			font-weight:bold;
+			margin:30px 0;
+			color:#283554;
+			line-height:230%;}
+			
+			
+		#mu_prof_detail{
+			background-color:#EEE;
+			padding:30px 8%}
+			
+		.doc_name{
+			font-size:18px;
+			font-weight:bold;
+			margin:5px 0 15px 0;
+			color:#283554;}
+			
+			
+		/*補足説明*/	
+		
+		#mu_top_explain_list1_in{
+			width:100%;
+			max-width:1100px;
+			margin:0 auto;
+			text-align:center;}
+			
+		#mu_top_explain_list3{
+			width:100%;
+			height:350px;
+			background-image:url(../img/mindup/explain/explain_03.jpg);
+			background-size: cover;
+			background-position:center;
+			background-repeat:no-repeat;}
+			
+		#mu_top_explain_list3_smt{
+			width:100%;
+			height:auto;
+			background-image:url(../../../img/mindup/explain/explain_03_smt.jpg);
+			background-size: cover;
+			background-position:center;
+			background-repeat:no-repeat;}
+			
+			
+		/*成分詳細*/		
+	
+	    #element2_list1{margin:50px 0;}
+		 
+        #element2_list1 img{
+			margin:30px 0;}
+			
+		#element2_list2 ul{
+			margin-top:50px;}
+	
+	
+		/*ユーザーボイス*/
+		
+		#mu_uservoice{
+			width:70%;
+			background-color:#DCE5B7;
+			padding:60px 15%;
+			margin:0 auto;
+			max-width:1100px;
+			text-align:center;}
+			
+		
+		#mu_uservoice ul{margin-top:30px;}	
+	    #mu_uservoice ul li{margin-bottom:30px;}
+	
+	
+		/*Q&A*/	
+		
+		#mu_qanda{
+			width:80%;
+			margin:80px 10%;
+			max-width:1100px;
+			font-size:16px;
+			font-weight:bold;}
+			
+		#mu_qanda img{
+			text-align:center;
+			width:30%;
+			margin:0 35% 40px 35%;}
+		
+		#mu_qanda label{
+			background:#EEE;
+			display: block;
+			padding: 15px 30px;
+			margin-bottom:20px;
+			cursor: pointer;}
+			
+		#mu_qanda input[type="checkbox"].on-off,
+		#mu_qanda input[type="checkbox"].on-off +div{
+			display: none;}
+			
+			
+		#mu_qanda input[type="checkbox"].on-off:checked +div{
+			display: block;}
+			
+		#mu_qanda div{
+			margin: 0 0 50px;
+			padding-left:30px;}
+			
+			
+		/*LAST*/	
+		
+		#mu_month img{
+			width:40%;
+			padding:50px 30%;}
+		
+		#mu_last_pdt{
+			width:50%;
+			margin:100px 25%;
+			text-align:center;}
+			
+	/*お問い合わせボタン*/
+		#contact_btn p{
+			width:100%;
+			margin:30px 0;
+			padding:20px 0;
+			color:#006;
+			font-weight:bold;
+			background-color:#deebfe;
+			text-align:center;}	
+			
+		#contact_btn p:hover{
+			background-color:#c9dafc;}
+			
+		
+	/*FOOTER*/
+		
+		#lp_footer{
+			background-color:#283554;
+			color:#FFF;
+			text-align:center;
+			padding:30px;
+			margin-top:80px;
+			font-size:12px;}		
+			
+		#lp_footer ul:after{display:block;clear:both;content:"";}	
+		
+		#lp_footer ul{
+			width:90%;
+			margin:10px 5%;}
+		
+		#lp_footer ul li{
+			display: inline-block;
+			padding:0 2%;}	
+			
+		#lp_footer ul li a{color:#FFF; font-weight:normal;}
+		#lp_footer ul li a:hover{color:#DDD;}
+		

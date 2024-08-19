@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+        .bold{font-weight:bold;}
+		.left{text-align:left !important;}
+
+		/*
+		***********************************
+		*LP用フッター関連ページ
+		***********************************
+		*/	
+		
+		#other_pg_logo img{
+			width: 35%;
+			/* padding: 0 30%; */
+			margin:20px 0 20px;}
+			
+		#other_pg_logo2 img{
+			width:22%;
+			padding:0 39%;
+			margin:50px 0 40px 0;}
+			
+		
+		#other_pg{
+			width:80%;
+			padding:50px 10%;
+			text-align:left;
+			font-size:13px !important;
+			line-height:200%;
+			letter-spacing:0;}
+			
+		#other_pg p{margin:30px 0;}
+			
+		.other_pg_tit{
+			font-size:18px;
+			font-weight:bold;
+			text-align:center;
+			margin:50px 0;}
+			
+		#salesdeal_list table{
+			width:100%;
+			margin:50px 0;
+			text-align:left;
+			font-size:13px;}
+			
+		#salesdeal_list table th{
+			width:30%;
+			background-color::#CCC !important;}
+			
+		#salesdeal_list table td{
+			width:70%;}
+			
+		#other_pg_footer{
+			background-color:#666;
+			color:#FFF;
+			padding:30px;
+			text-align:center;}
+				
