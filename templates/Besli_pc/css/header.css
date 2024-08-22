@@ -9,11 +9,12 @@ div#header {
 }
 
 div#head_inner{
-	width: 1000px;
+	/* width: 1000px; */
 	margin: 0 auto;
 	padding: 0;
 	background-color: #fff;
 	overflow: hidden;
+	display: flex;
 }
 
 div#logo_space a {
@@ -34,8 +35,8 @@ div#head_inner em {
 /* Header Right --------------------- */
 
 div#information {
-	float: right;
-	margin-top:15px;
+	/* float: right; */
+	margin-top:30px;
 }
 
 div#information ul{margin:10px 0 0 0;}

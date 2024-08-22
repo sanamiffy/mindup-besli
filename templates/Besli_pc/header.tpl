@@ -10,11 +10,8 @@
 				</div>
 				</a>
 			</h1>
-    </div>
 
-
-	<!--ヘッダー上部ボタンを表示する場合はこちらを解除-->
-		<div id="information">
+			<div id="information">
 			<ul>
 				<!--{if 'basis-lp_only'|get_option_use_flg == false}-->
 				<li class="info_mb">
@@ -41,6 +38,11 @@
 				<li class="info_sc"><a href="/cart/index.php">カートを見る</a></li>
 			</ul>
 		</div>
+    </div>
+
+
+	<!--ヘッダー上部ボタンを表示する場合はこちらを解除-->
+		
 				
 	</div>
 </div>
