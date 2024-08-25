@@ -4,7 +4,7 @@
 	<div id="head_inner">
 	
 			<h1>
-				<a href="/">
+				<a href="https://besliselect.com/">
                 <div id="other_pg_logo">
 				<img src="<!--{$TPL_DIR}-->/img/top/besli_logo_w.gif" alt="ベスリセレクト" />
 				</div>
