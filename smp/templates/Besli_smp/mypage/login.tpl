@@ -10,7 +10,7 @@
 					<p>
 						<!--{assign var=key value="mypage_login_email"}-->
 						<span class="attention"><!--{$arrErr[$key]}--></span>
-						<img src="<!--{$TPL_DIR}-->img/side/icon_mail.gif" width="40" height="21" alt="メールアドレス" align="middle" /><input type="text" name="<!--{$key}-->"
+						<span>メールアドレス</span><input type="text" name="<!--{$key}-->"
 						value="<!--{$tpl_login_email|escape}-->"
 						maxlength="<!--{$arrForm[$key].length}-->"
 						style="<!--{$arrErr[$key]|sfGetErrorColor}-->; ime-mode: disabled;"
@@ -19,7 +19,7 @@
 					<p class="passwd">
 						<!--{assign var=key value="mypage_login_pass"}-->
 						<span class="attention"><!--{$arrErr[$key]}--></span>
-						<img src="<!--{$TPL_DIR}-->img/side/icon_pw.gif" width="40" height="22" alt="パスワード" align="middle" /><input type="password" name="<!--{$key}-->" maxlength="<!--{$arrForm[$key].length}-->" style="<!--{$arrErr[$key]|sfGetErrorColor}-->" size="40" class="box300" />
+						<span>パスワード</span><input type="password" name="<!--{$key}-->" maxlength="<!--{$arrForm[$key].length}-->" style="<!--{$arrErr[$key]|sfGetErrorColor}-->" size="40" class="box300" />
 					</p>
 					<p class="mail01" style="text-align:center">
 						<!--{assign var=key value="mypage_login_memory"}-->
