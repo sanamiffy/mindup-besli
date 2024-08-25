@@ -1,6 +1,8 @@
 <!--▼HEADER-->
 
-<div class= header_logo id="other_pg_logo"><img src="<!--{$TPL_DIR}-->img/top/besli_logo_w.gif" alt="ベスリセレクト" /></div>
+<div class= header_logo id="other_pg_logo">
+<a href="https://besliselect.com/smp/"><img src="<!--{$TPL_DIR}-->img/top/besli_logo_w.gif" alt="ベスリセレクト" /></a>
+</div>
 
 <div id="header_right">
 		<ul>
