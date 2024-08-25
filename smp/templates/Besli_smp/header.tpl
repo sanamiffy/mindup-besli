@@ -19,6 +19,9 @@
 				<label for="menu-btn-check" class="menu-btn"><span></span></label>
 				<div class="menu-content">
 					<ul>
+					    <li>
+							<a href="https://besliselect.com/smp/">TOPページ</a>
+						</li>
 						<li>
 						<a href="/smp/entry/kiyaku.php">会員登録</a>
 						</li>
