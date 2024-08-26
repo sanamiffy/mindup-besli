@@ -676,6 +676,7 @@ div#mypagecolumn input[type=checkbox] {
 div#mypagecolumn input[type=radio] + label,
 div#mypagecolumn input[type=checkbox] + label {
         padding: 0 0 0 20px;
+        font-size: 12px;
     }
 div#mypagecolumn input[type=radio] + label::before,
 div#mypagecolumn input[type=checkbox] + label::before {
@@ -1929,6 +1930,8 @@ div#mypagecolumn .qp_dtl ul li .memo h3{background:#fff;color:#666;}
 
 .mypage_inner p {
     line-height:1.2rem;
+    font-size: 12px;
+    margin: 20px 0 20px 40px;
 }
 .mypage_inner p.myconditionarea {
     clear: both;
