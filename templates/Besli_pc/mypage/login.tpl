@@ -79,7 +79,7 @@
 			メールアドレスを忘れた方は、お手数ですが、<a href="/contact/index.php">お問い合わせページ</a>からお問い合わせください。
 		</p>
 	</div>
-	<div class="loginarea">
+	<div class="loginarea2">
 		<h3 class="d_have">まだ会員登録されていないお客様</h3>
 		</p>
 		<p class="inputtext">会員登録をすると便利なMyページをご利用いただけます。<br />

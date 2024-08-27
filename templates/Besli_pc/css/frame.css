@@ -53,3 +53,10 @@ div#one_maincolumn {
 	margin: 0;
 	padding: 0;
 }
+
+@media screen and (max-width: 768px) {
+	div#containe {
+		padding: 20px;
+	}
+
+}

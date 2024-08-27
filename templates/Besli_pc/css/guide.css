@@ -2,7 +2,7 @@
 
 /* 下層共通指定 -------------------------- */
 div#guidecolumn {
-	width: 50%;
+	width: 65%;
 	margin: 0 auto;
 	clear: both;
 	font-size:14px;
@@ -327,3 +327,29 @@ div#guidecolumn input[type=checkbox]:checked + label::after {
         transform: rotate(-45deg);
     }
 }
+
+div#guidecolumn table tr {
+
+}
+
+@media screen and (max-width: 768px) {
+	div#guidecolumn {
+	width: 100%;
+		}
+	
+	}
+
+	@media screen and (max-width: 480px) {
+
+		div#guidecolumn table th {
+			display: block;
+			border-bottom: none;
+		}
+
+		div#guidecolumn table td {
+			display: block;
+		}
+
+
+	}
+	

@@ -901,6 +901,22 @@ MYPAGE共通指定
 
 #mypagecolumn .loginarea {
     width: 46%;
+    height: 500px;
+    margin: 2% 1%;
+    padding: 1%;
+    float:left;
+    min-height: 420px;
+    box-shadow:0 2px 4px #ccc;
+    -webkit-box-shadow:0 2px 4px #ccc;
+    -moz-box-shadow:0 2px 4px #ccc;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+}
+
+#mypagecolumn .loginarea2 {
+    width: 46%;
+    height: 500px;
     margin: 2% 1%;
     padding: 1%;
     float:left;
@@ -3008,4 +3024,14 @@ div#completetext p.changetext {
     background: url(../img/mypage/loader_01.gif) no-repeat center center;
     height: 100px;
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    #mypagecolumn .loginarea .inputbox .box275{
+        position: static;
+    }
+
+
+    
 }
