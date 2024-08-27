@@ -1,7 +1,7 @@
 <!--▼CONTENTS-->
 <div id="mypagecolumn">
 	<div class="mypage_inner">
-		<h2>ログイン</h2>
+		<h2></h2>
 		<form name="login_mypage" id="login_mypage" method="post" action="./login_check.php" onsubmit="return fnCheckLogin('login_mypage')">
 			<input type="hidden" name="mode" value="login" />
 			<div class="mem_area">
@@ -21,7 +21,7 @@
 						<span class="attention"><!--{$arrErr[$key]}--></span>
 						<span>パスワード</span><input type="password" name="<!--{$key}-->" maxlength="<!--{$arrForm[$key].length}-->" style="<!--{$arrErr[$key]|sfGetErrorColor}-->" size="40" class="box300" />
 					</p>
-					<p class="mail01" style="text-align:center">
+					<p class="mail01" style="padding: 0 0 0 20px;">
 						<!--{assign var=key value="mypage_login_memory"}-->
 						<input type="checkbox" name="<!--{$key}-->" value="1" align="middle" <!--{$tpl_login_memory|sfGetChecked:1}--> id="login_memory" />
 						<label for="login_memory">メールアドレスを記憶する</label>
@@ -51,7 +51,7 @@
 						<a href="/smp/contact/index.php">お問い合わせページ</a>
 					</li>
 				</ul>
-				<p class="atention">※メールアドレスを忘れた方は、お手数ですが、お問い合わせページからお問い合わせください。</p>
+				<p class="atention">※メールアドレスを忘れた方は、お手数ですが、<br>お問い合わせページからお問い合わせください。</p>
 			</div>
 
 			<div class="no_mem_area">

@@ -2,7 +2,8 @@
 ----------------------------------------------- */
 div#entrycolumn {
     /* width: 310px; */
-    margin: 5px;
+    /* margin: 5px; */
+    margin-top: 20px;
     padding: 0;
     text-align: left;
 }

@@ -84,7 +84,7 @@ div#container {
 }
 
 div#mypagecolumn {
-    margin: 10px auto 0 auto;
+    margin: 20px auto 0 auto;
     font-family:Helvetica, san-serif;
 }
 
@@ -1880,7 +1880,7 @@ div#mypagecolumn .qp_dtl ul li .memo h3{background:#fff;color:#666;}
 ----------------------------------------------- */
 .mypage_inner {
     margin: 0 auto;
-    margin-top: 8vh;
+    /* margin-top: 8vh; */
 }
 .mypage_inner .pricetd01 {
     text-align: right;

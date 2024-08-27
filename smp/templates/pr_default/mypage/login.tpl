@@ -1,7 +1,7 @@
 <!--▼CONTENTS-->
 <div id="mypagecolumn">
 	<div class="mypage_inner">
-		<h2>ログイン</h2>
+		<h2 class="pl_20">ログイン</h2>
 		<form name="login_mypage" id="login_mypage" method="post" action="./login_check.php" onsubmit="return fnCheckLogin('login_mypage')">
 			<input type="hidden" name="mode" value="login" />
 			<div class="mem_area">

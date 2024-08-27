@@ -68,7 +68,7 @@
 	</div>
 	<!--{if 'basis-lp_only'|get_option_use_flg == false}-->
 	<div class="shopping_inner">
-		<h2>ログイン</h2>
+		<h2 class="pl_20">ログイン</h2>
 		<!--{if $reg_get != 1}-->
 			<form name="member_form" id="member_form" method="post" action="<!--{$smarty.const.SSL_URL}-->smp/shopping/deliv_smp.php" onsubmit="return fnCheckLogin('member_form')">
 		<!--{else}-->

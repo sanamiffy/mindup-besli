@@ -36,8 +36,8 @@ div#shoppingcolumn .resulttd {
 ----------------------------------------------- */
 
 .shopping_inner {
-    margin: 10px auto 0 auto;
-    padding: 5px;
+    margin: 20px auto 0 auto;
+    /* padding: 5px; */
 }
 .shopping_inner p{
     margin: 0 auto;
