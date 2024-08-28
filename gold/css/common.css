@@ -173,5 +173,403 @@
 
 	
 			
-	
+	/*original-tpl-css*/
+		
+		/* ==================BUTTON===================== */
+
+.buy-btn {
+	width: 650px;
+	height: 15vh;
+	background-image: -webkit-linear-gradient(left, #2480BC 40%, #03358A 100%);
+	/* background-image: linear-gradient(90deg, #2480BC 40%, #03358A 100%); */
+	color: #fff;
+	font-size: 2.4rem;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+	line-height :14vh;
+	border-radius: 3vh;
+	text-decoration: none;
+ }
+ 
+ .fa-solid {
+   margin-right: 5px;
+ }
+ 
+ .buy-btn:hover {
+   -webkit-transform: translate(0, -2px);
+   transform: translate(0, -2px);
+   color: #fff;
+   -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+   box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+ }
+ 
+ /* ==================定期購入===================== */
+ 
+ .buy-wrapper{
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .buy {
+   color: #2E3444;
+   font-weight: bold;
+   font-size: 1.2rem;
+   margin-top: 20px;
+ }
+ .buy p {
+   line-height: 28px;
+ }
+ 
+ 
+ .label-1 {
+   font-size: 2.5rem;
+   font-family: "Noto Serif JP", serif;
+   font-optical-sizing: auto;
+   font-weight:normal;
+   font-style: normal;
+   border-bottom: 1px solid #2E3444;
+   text-align: center;
+   padding-bottom: 20px;
+   width: 600px;
+   margin: auto;
+   margin-top: 30px;
+ }
+ 
+ .title-label {
+   text-align: center;
+   font-family: "Noto Serif JP", serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 5.5rem;
+   margin: auto;
+   padding: 50px;
+ }
+ 
+ .title-label-2 {
+   font-weight: bold;
+   font-size: 2rem;
+   margin: auto;
+ }
+ 
+ .label-2 {
+   width: 420px;
+   height: 7vh;
+   line-height: 7vh;
+   background-image: -webkit-linear-gradient(left, #2480BC 40%, #03358A 100%);
+   color: #fff;
+   font-size: 2rem;
+   letter-spacing: 10px;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+   margin: auto;
+   margin-top: 20px;
+ }
+ 
+ .buy-wrapper ul {
+   display: flex;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ .buy-wrapper li{
+   list-style: none;
+   font-weight: 900;
+   letter-spacing: 3px;
+ }
+ 
+ .buy-p {
+   font-size: 1.5rem;
+   width: 280px;
+   padding-top: 40px;
+ }
+ 
+ .list-1 {
+	width: 133px;
+    height: 14vh;
+    background-color: #FF6D6C;
+    color: #fff;
+    font-size: 1.5rem;
+    /* letter-spacing: 5px; */
+    /* font-weight: bold; */
+    text-align: center;
+    text-decoration: none;
+    /* margin: auto; */
+    margin-top: 43px;
+    border-radius: 2vh;
+    line-height: 45px;
+    padding-top: 10px;
+ }
+ 
+ .list-3 {
+   width: 200px;
+	 height: 17vh;
+	 line-height: 7vh;
+	 background-color: #F0F0F0;
+	 color: #22324F;
+	 font-size: 1.5rem;
+	 letter-spacing: 5px;
+	 font-weight: bold;
+	 text-align: center;
+	 text-decoration: none;
+	 margin: auto;
+	 margin-top: 35px;
+	 margin-bottom: 20px;
+	 border-radius: 2vh;
+ }
+ 
+ .small-1 {
+   font-size: small;
+ }
+ 
+ .small-2 {
+   font-size: 1.3rem;
+   font-weight: bold;
+   color: #CC494A;
+ }
+
+ .small-3 {
+	font-size: 1rem;
+ }
+ 
+ .number-1 {
+   color: #CC494A;
+   font-family: "Noto Serif JP", serif;
+   font-weight: 700;
+   font-size: 4rem;
+   letter-spacing: 0.3px;
+   /* padding-left: 2vw; */
+   line-height: 90px;
+ }
+ 
+ .number-2 {
+   font-family: "Noto Serif JP", serif;
+   font-weight: bold;
+   font-size: 35px;
+   letter-spacing: 0.3px;
+ }
+
+ .number-3 {
+	font-family: "Noto Serif JP", serif;
+   font-weight: bold;
+   font-size: 20px;
+   letter-spacing: 0.3px;
+ }
+ 
+ .list-4 {
+	 line-height: 6vh;
+	 color: #22324F;
+	 font-size: 1.5rem;
+	 text-align: center;
+	 text-decoration: none;
+	 margin: auto;
+	 border-radius: 2vh;
+	 border: solid 2px #22324F;
+	 padding: 5px 20px;
+	 margin-bottom: 20px;
+ }
+ 
+ /* ================単品======================== */
+ 
+ .buy-wrapper-2 {
+   display: flex;
+ }
+
+ .buy-wrapper-2 ul {
+	display: flex;
+	flex-direction: column;
+ }
+ 
+ .single {
+   margin-top: 40px;
+   margin-bottom: 30px;
+ }
+ 
+ .pr_0 img {
+   width: 250px;
+   margin: 20px 40px 20px 50px;
+ }
+ 
+ .title-label-single {
+   text-align: center;
+   font-family: "Noto Serif JP", serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 5rem;
+   margin: auto;
+   margin-top: 50px;
+ }
+ 
+ .title-label-2-single {
+   font-weight: bold;
+   font-size: 1.5rem;
+   margin: auto;
+   margin-left: 60px;
+   padding-top: 40px;
+ }
+ 
+ .list-1-single {
+   background-color: #FF6D6C;
+   color: #fff;
+   font-size: 1rem;
+   letter-spacing: 5px;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 1vh;
+   padding: 20px 10px;
+   position: relative;
+   top: 50px;
+   margin-left: 20px;
+ }
+ 
+ .list-4-single {
+   line-height: 6vh;
+   color: #22324F;
+   font-size: 1rem;
+   text-align: center;
+   text-decoration: none;
+   margin: auto;
+   border-radius: 2vh;
+   border: solid 2px #22324F;
+   padding: 10px 15px 10px 20px;
+   margin-left: 7px;
+   position: relative;
+   top: 80px;
+   letter-spacing: 7.5px;
+ }
+
+ .list-2 {
+	width: 270px;
+	padding: 0 20px;
+ }
+ 
+ /* ================規約======================== */
+ 
+ .buy-guide {
+   border: solid 30px #E2E2E2;
+ }
+ 
+ /* =========お買い物ガイド============== */
+ /* 左右に横線 */
+ .buy-guide-item1 {
+   align-items: center; /* 横線を上下中央 */
+   display: flex; /* 文字と横線を横並び */
+   justify-content: center; /* 文字を中央寄せ */
+ }
+ .buy-guide-item1::before,
+ .buy-guide-item1::after {
+   background-color: #263771; /* 横線の色 */
+   content: "";
+   height: 4px; /* 横線の高さ */
+   width: 100px; /* 横線の長さ */
+ }
+ .buy-guide-item1::before {
+   margin-right: 15px; /* 文字との余白 */
+ }
+ .buy-guide-item1::after {
+   margin-left: 15px; /* 文字との余白 */
+ }
+ 
+ 
+ 
+ .buy-guide-item2 {
+   color: #fff;
+   font-weight: bold;
+   background-color: #32488E;
+   padding: 10px 20px;
+ }
+ 
+ .buy-guige-item3 {
+   padding-left: 20px;
+ }
+ 
+ 
+ 
+ /* ========================フォントサイズ============================ */
+ 
+ .fs_1{
+   font-size: 1rem;
+ }
+ 
+ .fs_1a{
+   font-size: 1.5rem;
+ }
+ 
+ .fs_2 {
+   font-size: 2rem;
+ }
+ 
+ .fs_3 {
+   font-size: 3rem;
+ }
+ 
+ .fw_b {
+   font-weight: bold;
+ }
+ 
+ /* ========================位置============================ */
+ .ta_c {
+   text-align: center;
+ }
+ 
+ .m_0 {
+   margin: 0 auto;
+ }
+ 
+ .mt_20 {
+   margin-top: 20px;
+ }
+ 
+ .mb_20 {
+   margin-bottom: 20px;
+ }
+ 
+ .pl_20 {
+   padding-left: 20px;
+ }
+ 
+ .pr_0 {
+   padding-right: 0px;
+ }
+
+ .pt_20 {
+	padding-top: 20px;
+ }
+
+ .pt_40 {
+	padding-top: 40px;
+ }
+
+ /* ========================色============================ */
+ .red {
+   color: #C60612;
+ }
+ 
+ .white {
+   color: #fff;
+ }
+ 
+ /* ========================サイズ============================ */
+ 
+ .w_60 {
+   width: 60%;
+ }
+ 
+ .w_30 {
+   width: 30%;
+ }
+ 
+ .w_140 {
+	width: 140px;
+ }
+
+ .w_285 {
+	width: 285px;
+ }
+ 
+		 
 	

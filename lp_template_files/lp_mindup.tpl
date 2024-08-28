@@ -203,6 +203,102 @@ $(function(){
 <img src="../../gold/img/mindup/others/sp_guide.jpg" alt="ショッピングガイド" />
 </div>
 
+<!--original-tpl-->
+
+<div class="buy-wrapper">
+        <h2 class="label-1">お得に続けたい方に</h2>
+        <p class="title-label">Mind&nbsp;Up</p>
+        <p class="title-label-2">[&nbsp;マインドアップ&nbsp;]</p>
+        <p class="label-2">定期お届け便</p>
+		<span class="w_60 m_0 mt_20 mb_20">
+        <img src="../../gold/img/mindup/others/last_pdt_img.jpg">
+		</span>
+        <ul class="m_0">
+            <li class="list-1"><p>初回<br>特別価格</p></li>
+            <li class="list-2"><p class="buy-p"><span class="small-3">▼通常価格</span><span class="number-2">4,980</span><span class="small-1">円(税込)</span><br><span class="number-1">1,980</span><span class="small-2">円(税込)</span></p></li>
+            <li class="list-3"><p>2回目以降も<br><span class="number-2">4,690</span><span class="small-1">円(税込)</span></p></li>
+        </ul>
+        <ul>
+            <li class="list-4">30日間全額返金保証</li>
+            <li class="list-4">送料無料</li>
+            <li class="list-4">健康相談付</li>
+        </ul>
+        <a href="#buy" class="buy-btn white"><i class="fa-solid fa-play"></i>定期お届け便の申込みはこちら</a>
+        <div class="buy">
+             <p>※1袋 約1ヶ月分（90粒入）/ 1日3粒目安</p>
+             <p>※毎月商品をお届けします。</p>
+             <p>※管理画面から<span class="red">"いつでも一旦停止、解約可能"</span>です。</p>
+             <p class="small">（発送予定日の5日前まで）</p>
+             <p>※ご購入は<span class="red">"クレジットカード決済 / コンビニ決済<br>（後払い）"</span>がご利用いただけます。</p>
+             <p>※購入後、<span class="red">"メールでの健康相談"</span>がお受けできます。</p>
+        </div>
+        <!-- <img src="img/img_30.jpg"> -->
+
+        <h2 class="label-1">単品でのご注文</h2>
+        <ul>
+            <li class="pt_40"><img class="single pr_0 ta_c" src="../../gold/img/mindup/others/last_pdt_img.jpg"></li>
+            <li><p class="title-label-single">Mind&nbsp;Up</p>
+                <p class="title-label-2-single">[&nbsp;マインドアップ&nbsp;]</p>
+                <div class="buy-wrapper-2">
+				<ul class="w_140">
+				    <li><p><span class="list-1-single">初回限定</span></p></li>
+				    <li><span class="list-4-single">送料無料</span></p></li>
+				</ul>
+				<ul class="w_285">
+				    <li class="pt_20">
+				      <span class="small-3">通常価格</span><br>
+				      <span class="number-2">4,980</span>
+				      <span class="small-1">円(税込)</span></li>
+				    <li>
+				      <span class="number-1">3,980</span>
+				      <span class="small-2">円(税込)</span>
+				    </li>
+				</ul>
+                </div>
+            </li>
+        </ul>
+        
+        <a href="#buy" class="buy-btn"><i class="fa-solid fa-play"></i>単品でのご購入はこちら</a>
+        <div class="buy">
+            <p>※1袋 約1ヶ月分（90粒入）/ 1日3粒目安</p>
+            <p>※「クレジット決済」または「コンビニ決済（後払い）」が可能です。</p>
+            <p>※購入後の返金はできません。</p>
+        </div>
+
+        <div class="buy-guide">
+            <h2 class="buy-guide-item1">お買い物ガイド</h2>
+            <p class="buy-guide-item2">送料について</p>
+            <p class="buy-guige-item3">すべて<span class="red fw_b">送料無料</span></p>
+            <p class="buy-guide-item2">納期について</p>
+            <p class="buy-guige-item3">ご注文確定後、<span class="red fw_b">原則２営業日以内</span>（土日祝除）に発送します。</p>
+            <p class="buy-guide-item2">初回購入価格について</p>
+            <p class="buy-guige-item3">初回購入価格は１世帯につき１回限りとさせて頂きます。</p>
+            <p class="buy-guide-item2">定期購の途中解約について</p>
+            <p class="buy-guige-item3">定期コースを解約される場合は、<span class="red fw_b">次回商品発送の５日前まで</span>にメール
+                <br>にて中止のご連絡をお願い致します。（それ以降の解約ご希望の場合は
+                <br>発送準備の都合上受付できませんのでご注意ください）
+            </p>
+            <p class="buy-guide-item2">全額返金保証について</p>
+            <p class="buy-guige-item3">１）返金保証期間は<span class="red fw_b">ご注文日から３０日</span>以内となります。
+                <br>２）自動お届けコース休止・中止の受付とはタイミングが異なります。
+                <br>３）返金保証は<span class="red fw_b">定期購入コースのみ</span>が対象となります。
+                <br>４）全額返金は<span class="red fw_b">１袋のみ</span>が対象となり２袋以上の開封で無効となります。
+                <br>５）全額返金保証で返品される場合は<span>事前のメール</span>でのご連絡が必要です。
+                <br>６）返品送料及び振込手数料はお客様のご負担となります。
+                <br>&nbsp;&nbsp;&nbsp;（返金全額から振込手数料を差し引いた金額をお支払い致します）
+                <br>７）返金はクレジット決済の場合はキャンセル処理、後払いの場合は
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;銀行振り込みによる返金となり、返品商品が到着した月の末締め翌月末払いでの
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ご返金となります。
+            </p>
+            <p class="buy-guide-item2">お支払いについて</p>
+            <p class="buy-guige-item3"><span class="red fw_b">クレジットカード&nbsp;/&nbsp;コンビニ決済（後払い）</span></p>
+            <p class="buy-guide-item2">配送について</p>
+            <p class="buy-guige-item3">配送はポスト投函となりますので日時指定はできません。</p>
+        </div>
+    </div>
+
+
+
 
 <!--{* ↑↑ヘッダーデザイン↑↑ *}-->
 <!--{/if}-->
