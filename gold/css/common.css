@@ -250,7 +250,8 @@
  .title-label-2 {
    font-weight: bold;
    font-size: 2rem;
-   margin: auto;
+   /* margin: auto; */
+   text-align: center;
  }
  
  .label-2 {
@@ -370,6 +371,10 @@
 	 padding: 5px 20px;
 	 margin-bottom: 20px;
  }
+
+ /* .some-wrapper {
+	border: solid 20px #DFEBFF;
+ } */
  
  /* ================単品======================== */
  
@@ -446,11 +451,16 @@
 	width: 270px;
 	padding: 0 20px;
  }
+
+ /* .single-wrapper {
+	border: solid 20px #DFEBFF;
+ } */
  
  /* ================規約======================== */
  
  .buy-guide {
-   border: solid 30px #E2E2E2;
+   border: solid 20px #E2E2E2;
+   margin-top: 20px;
  }
  
  /* =========お買い物ガイド============== */
@@ -459,7 +469,10 @@
    align-items: center; /* 横線を上下中央 */
    display: flex; /* 文字と横線を横並び */
    justify-content: center; /* 文字を中央寄せ */
+   font-size: 1.5rem;
+    padding: 10px 0;
  }
+
  .buy-guide-item1::before,
  .buy-guide-item1::after {
    background-color: #263771; /* 横線の色 */
@@ -484,7 +497,7 @@
  }
  
  .buy-guige-item3 {
-   padding-left: 20px;
+   padding: 10px 0 10px 20px; 
  }
  
  

@@ -206,6 +206,7 @@ $(function(){
 <!--original-tpl-->
 
 <div class="buy-wrapper">
+<div class="some-wrapper">
         <h2 class="label-1">お得に続けたい方に</h2>
         <p class="title-label">Mind&nbsp;Up</p>
         <p class="title-label-2">[&nbsp;マインドアップ&nbsp;]</p>
@@ -223,7 +224,7 @@ $(function(){
             <li class="list-4">送料無料</li>
             <li class="list-4">健康相談付</li>
         </ul>
-        <a href="#buy" class="buy-btn white"><i class="fa-solid fa-play"></i>定期お届け便の申込みはこちら</a>
+        <a href="#form1" class="buy-btn white"><i class="fa-solid fa-play"></i>定期お届け便の申込みはこちら</a>
         <div class="buy">
              <p>※1袋 約1ヶ月分（90粒入）/ 1日3粒目安</p>
              <p>※毎月商品をお届けします。</p>
@@ -232,8 +233,9 @@ $(function(){
              <p>※ご購入は<span class="red">"クレジットカード決済 / コンビニ決済<br>（後払い）"</span>がご利用いただけます。</p>
              <p>※購入後、<span class="red">"メールでの健康相談"</span>がお受けできます。</p>
         </div>
-        <!-- <img src="img/img_30.jpg"> -->
+		</div>
 
+		<divclass="single-wrapper>
         <h2 class="label-1">単品でのご注文</h2>
         <ul>
             <li class="pt_40"><img class="single pr_0 ta_c" src="../../gold/img/mindup/others/last_pdt_img.jpg"></li>
@@ -245,7 +247,7 @@ $(function(){
 				    <li><span class="list-4-single">送料無料</span></p></li>
 				</ul>
 				<ul class="w_285">
-				    <li class="pt_20">
+				    <li class="pt_20 pl_20">
 				      <span class="small-3">通常価格</span><br>
 				      <span class="number-2">4,980</span>
 				      <span class="small-1">円(税込)</span></li>
@@ -258,12 +260,13 @@ $(function(){
             </li>
         </ul>
         
-        <a href="#buy" class="buy-btn"><i class="fa-solid fa-play"></i>単品でのご購入はこちら</a>
+        <a href="#form1" class="buy-btn"><i class="fa-solid fa-play"></i>単品でのご購入はこちら</a>
         <div class="buy">
             <p>※1袋 約1ヶ月分（90粒入）/ 1日3粒目安</p>
             <p>※「クレジット決済」または「コンビニ決済（後払い）」が可能です。</p>
             <p>※購入後の返金はできません。</p>
         </div>
+		</div>
 
         <div class="buy-guide">
             <h2 class="buy-guide-item1">お買い物ガイド</h2>
