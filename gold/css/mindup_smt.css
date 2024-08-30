@@ -40,6 +40,7 @@
 			letter-spacing:1px;
 			color:#4c4c4c;
 			background-color:#FFF;
+			padding-bottom: 50px;
 		}
 
 			
@@ -467,3 +468,50 @@
 			width: 19px;
 			height: 19px;
 		}
+
+@media screen and (max-width: 480px) {
+
+	.label-2 {
+		height: 4vh;
+        line-height: 4vh;
+	}
+
+	.list-1 {
+		height: 6vh;
+		border-radius: 1vh;
+	}
+
+	.list-3 {
+	height: 7vh;
+    line-height: 3vh;
+	border-radius: 1vh;
+	}
+
+	.list-4 {
+		line-height: 3vh;
+		border-radius: 1vh;
+	}
+
+	.buy-btn {
+		height: 6vh;
+		line-height: 6vh;
+        border-radius: 1vh;
+	}
+
+	.list-1-single {
+		border-radius: 0.5vh;
+	}
+
+	.pt_20 {
+		padding-top: 45px;
+	}
+
+	.list-4-single {
+		border-radius: 0.5vh;
+
+	}
+
+
+		
+}
+		

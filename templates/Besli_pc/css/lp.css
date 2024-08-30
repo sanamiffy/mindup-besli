@@ -3,13 +3,14 @@
 /* フォーム共通設定
 ----------------------------------------------- */
 #lpshoppingcolumn {
-	width: 96%;
+	width: 70%;
 	margin: 30px auto;
 	padding: 0 2% 2%;
 	font-size: 1.2em;
 	border: 2px solid #aaa;
 	border-radius: 5px;
 	overflow: hidden;
+    background-color: #FFF;
 }
 #lpshoppingcolumn table{
 	width: 100%;
