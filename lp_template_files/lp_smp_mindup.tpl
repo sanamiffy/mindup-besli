@@ -204,15 +204,15 @@ $(function(){
 
 <!--original-tpl-->
 
-<div class="buy-wrapper">
+<!--<div class="buy-wrapper">
 <div class="some-wrapper">
         <h2 class="label-1">お得に続けたい方に</h2>
         <p class="title-label">Mind&nbsp;Up</p>
         <p class="title-label-2">[&nbsp;マインドアップ&nbsp;]</p>
         <p class="label-2">定期お届け便</p>
-		<span class="w_60 m_0 mt_20 mb_20">
+		<div class="w_60 m_0 mt_20 ">
         <img src="../../gold/img/mindup/others/last_pdt_img.jpg">
-		</span>
+		</div>
         <ul class="m_0">
             <li class="list-1"><p>初回<br>特別価格</p></li>
             <li class="list-2">
@@ -237,7 +237,7 @@ $(function(){
             <li class="list-4">送料無料</li>
             <li class="list-4">健康相談付</li>
         </ul>
-        <a href="#form1" class="buy-btn white"><i class="fa-solid fa-play"></i>定期お届け便の申込みはこちら</a>
+        <div class="text_c"><a href="#form1" class="buy-btn white"><i class="fa-solid fa-play"></i>定期お届け便の申込みはこちら</a></div>
         <div class="buy">
              <p>※1袋 約1ヶ月分（90粒入）/ 1日3粒目安</p>
              <p>※毎月商品をお届けします。</p>
@@ -251,8 +251,8 @@ $(function(){
 		<divclass="single-wrapper>
         <h2 class="label-1">単品でのご注文</h2>
         <ul>
-            <li class="pt_40"><img class="single pr_0 ta_c" src="../../gold/img/mindup/others/last_pdt_img.jpg"></li>
-            <li><p class="title-label-single">Mind&nbsp;Up</p>
+            <li class="pt_40 w_40"><img class="single pr_0 ta_c" src="../../gold/img/mindup/others/last_pdt_img.jpg"></li>
+            <li class="w_60"><p class="title-label-single">Mind&nbsp;Up</p>
                 <p class="title-label-2-single">[&nbsp;マインドアップ&nbsp;]</p>
                 <div class="buy-wrapper-2">
 				<ul class="w_140">
@@ -273,7 +273,7 @@ $(function(){
             </li>
         </ul>
         
-        <a href="#form1" class="buy-btn"><i class="fa-solid fa-play"></i>単品でのご購入はこちら</a>
+        <div class="text_c"><a href="#form1" class="buy-btn"><i class="fa-solid fa-play"></i>単品でのご購入はこちら</a></div>
         <div class="buy">
             <p>※1袋 約1ヶ月分（90粒入）/ 1日3粒目安</p>
             <p>※「クレジット決済」または「コンビニ決済（後払い）」が可能です。</p>
@@ -311,7 +311,7 @@ $(function(){
             <p class="buy-guide-item2">配送について</p>
             <p class="buy-guige-item3">配送はポスト投函となりますので日時指定はできません。</p>
         </div>
-    </div>
+    </div>-->
 
 
 

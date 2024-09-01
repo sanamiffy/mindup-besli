@@ -205,7 +205,7 @@ $(function(){
 
 <!--original-tpl-->
 
-<div class="buy-wrapper">
+<!--<div class="buy-wrapper">
 <div class="some-wrapper">
         <h2 class="label-1">お得に続けたい方に</h2>
         <p class="title-label">Mind&nbsp;Up</p>
@@ -312,7 +312,7 @@ $(function(){
             <p class="buy-guide-item2">配送について</p>
             <p class="buy-guige-item3">配送はポスト投函となりますので日時指定はできません。</p>
         </div>
-    </div>
+    </div>-->
 
 
 
