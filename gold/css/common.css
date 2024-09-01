@@ -210,6 +210,11 @@
    display: flex;
    flex-direction: column;
  }
+
+ .flex {
+	display: flex;
+	flex-direction: column;
+ }
  
  .buy {
    color: #2E3444;
@@ -217,6 +222,8 @@
    font-size: 1.2rem;
    margin-top: 20px;
  }
+
+
  .buy p {
    line-height: 28px;
  }
@@ -283,12 +290,12 @@
  
  .buy-p {
    font-size: 1.5rem;
-   width: 280px;
-   padding-top: 40px;
+   padding-top: 50px;
+   text-align: center;
  }
  
  .list-1 {
-	width: 133px;
+	width: 25%;
     height: 14vh;
     background-color: #FF6D6C;
     color: #fff;
@@ -303,9 +310,13 @@
     line-height: 45px;
     padding-top: 10px;
  }
+
+ .list-2 {
+	width: 40%;
+ }
  
  .list-3 {
-   width: 200px;
+   width: 30%;
 	 height: 17vh;
 	 line-height: 7vh;
 	 background-color: #F0F0F0;
@@ -319,6 +330,10 @@
 	 margin-top: 35px;
 	 margin-bottom: 20px;
 	 border-radius: 2vh;
+ }
+
+ .list-3 p {
+	padding-top: 12px;
  }
  
  .small-1 {
@@ -339,7 +354,7 @@
    color: #CC494A;
    font-family: "Noto Serif JP", serif;
    font-weight: 700;
-   font-size: 4rem;
+   font-size: 3.4rem;
    letter-spacing: 0.3px;
    /* padding-left: 2vw; */
    line-height: 90px;
@@ -348,8 +363,8 @@
  .number-2 {
    font-family: "Noto Serif JP", serif;
    font-weight: bold;
-   font-size: 35px;
    letter-spacing: 0.3px;
+   font-size: 1.7rem;
  }
 
  .number-3 {
@@ -445,11 +460,6 @@
    position: relative;
    top: 80px;
    letter-spacing: 7.5px;
- }
-
- .list-2 {
-	width: 270px;
-	padding: 0 20px;
  }
 
  /* .single-wrapper {
@@ -586,4 +596,6 @@
  }
  
 		 
+
+
 	

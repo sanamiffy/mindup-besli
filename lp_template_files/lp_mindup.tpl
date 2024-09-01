@@ -216,7 +216,21 @@ $(function(){
 		</span>
         <ul class="m_0">
             <li class="list-1"><p>初回<br>特別価格</p></li>
-            <li class="list-2"><p class="buy-p"><span class="small-3">▼通常価格</span><span class="number-2">4,980</span><span class="small-1">円(税込)</span><br><span class="number-1">1,980</span><span class="small-2">円(税込)</span></p></li>
+            <li class="list-2">
+            <div class="buy-p">
+            <ul class="flex">
+                <li>
+                  <span class="small-3">▼通常価格</span>
+                  <span class="number-2">4,980</span>
+                  <span class="small-1">円(税込)</span>
+                </li>
+                <li>
+                  <span class="number-1">1,980</span>
+                  <span class="small-2">円(税込)</span>
+                </li>
+            </ul>
+        </div>            
+        </li>
             <li class="list-3"><p>2回目以降も<br><span class="number-2">4,690</span><span class="small-1">円(税込)</span></p></li>
         </ul>
         <ul>
