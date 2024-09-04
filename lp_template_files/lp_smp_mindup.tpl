@@ -185,26 +185,26 @@ $(function(){
 
 <!--下部_商品購入-->
 <!--トップ_商品購入-->
-<div class="mu_top_buy">
+<!--<div class="mu_top_buy">
 <ul id="buy_select">
 <li><a href="#form1" data-value-name="2" class="auto_select_name" style="cursor: pointer"/><img src="../../gold/img/mindup/buy/monthly_smt.jpg" alt="定期購入詳細" /></a></li>
 <li><a href="#form1" data-value-name="1" class="auto_select_name" style="cursor: pointer"/><img src="../../gold/img/mindup/buy/single_smt.jpg" alt="1袋ご購入詳細" /></a></li>
 </ul>
-</div>
+</div>-->
 
 
 </div>
 
 
 <!--SPguide-->
-<div id="sp_guide">
+<!--<div id="sp_guide">
 <img src="../../gold/img/mindup/others/sp_guide.jpg" alt="ショッピングガイド" />
-</div>
+</div>-->
 
 
 <!--original-tpl-->
 
-<!--<div class="buy-wrapper">
+<div class="buy-wrapper">
 <div class="some-wrapper">
         <h2 class="label-1">お得に続けたい方に</h2>
         <p class="title-label">Mind&nbsp;Up</p>
@@ -251,7 +251,7 @@ $(function(){
 		<divclass="single-wrapper>
         <h2 class="label-1">単品でのご注文</h2>
         <ul>
-            <li class="pt_40 w_40"><img class="single pr_0 ta_c" src="../../gold/img/mindup/others/last_pdt_img.jpg"></li>
+            <li class="pt_20 w_40"><img class="single pr_0 ta_c" src="../../gold/img/mindup/others/last_pdt_img.jpg"></li>
             <li class="w_60"><p class="title-label-single">Mind&nbsp;Up</p>
                 <p class="title-label-2-single">[&nbsp;マインドアップ&nbsp;]</p>
                 <div class="buy-wrapper-2">
@@ -260,12 +260,12 @@ $(function(){
 				    <li><span class="list-4-single">送料無料</span></p></li>
 				</ul>
 				<ul class="w_285">
-				    <li class="pt_20 pl_20">
-				      <span class="small-3">通常価格</span><br>
-				      <span class="number-2">4,980</span>
+				    <li class="pl_10">
+				      <span class="small-4">通常価格</span><br>
+				      <span class="number-4">4,980</span>
 				      <span class="small-1">円(税込)</span></li>
 				    <li>
-				      <span class="number-1">3,980</span>
+				      <span class="number-5">3,980</span>
 				      <span class="small-2">円(税込)</span>
 				    </li>
 				</ul>
@@ -311,7 +311,7 @@ $(function(){
             <p class="buy-guide-item2">配送について</p>
             <p class="buy-guige-item3">配送はポスト投函となりますので日時指定はできません。</p>
         </div>
-    </div>-->
+    </div>
 
 
 

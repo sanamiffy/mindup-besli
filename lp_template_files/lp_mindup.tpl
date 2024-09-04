@@ -187,25 +187,25 @@ $(function(){
 
 <!--下部_商品購入-->
 <!--トップ_商品購入-->
-<div class="mu_top_buy">
+<!--<div class="mu_top_buy">
 <ul id="buy_select">
 <li><a href="#form1" data-value-name="2" class="auto_select_name" style="cursor: pointer"/><img src="../../gold/img/mindup/buy/monthly_smt.jpg" alt="定期購入詳細" /></a></li>
 <li><a href="#form1" data-value-name="1" class="auto_select_name" style="cursor: pointer"/><img src="../../gold/img/mindup/buy/single_smt.jpg" alt="1袋ご購入詳細" /></a></li>
 </ul>
-</div>
+</div>-->
 
 
 </div>
 
 
 <!--SPguide-->
-<div id="sp_guide">
+<!--<div id="sp_guide">
 <img src="../../gold/img/mindup/others/sp_guide.jpg" alt="ショッピングガイド" />
-</div>
+</div>-->
 
 <!--original-tpl-->
 
-<!--<div class="buy-wrapper">
+<div class="buy-wrapper">
 <div class="some-wrapper">
         <h2 class="label-1">お得に続けたい方に</h2>
         <p class="title-label">Mind&nbsp;Up</p>
@@ -312,7 +312,7 @@ $(function(){
             <p class="buy-guide-item2">配送について</p>
             <p class="buy-guige-item3">配送はポスト投函となりますので日時指定はできません。</p>
         </div>
-    </div>-->
+    </div>
 
 
 

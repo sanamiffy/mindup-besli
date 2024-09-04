@@ -349,6 +349,10 @@
  .small-3 {
 	font-size: 1rem;
  }
+
+ .small-4{
+	font-size: 1rem;
+ }
  
  .number-1 {
    color: #CC494A;
@@ -373,6 +377,23 @@
    font-size: 20px;
    letter-spacing: 0.3px;
  }
+
+ .number-4{
+	font-family: "Noto Serif JP", serif;
+   font-weight: bold;
+   letter-spacing: 0.3px;
+   font-size: 1.7rem;
+ }
+
+ .number-5 {
+	color: #CC494A;
+	font-family: "Noto Serif JP", serif;
+	font-weight: 700;
+	font-size: 3.4rem;
+	letter-spacing: 0.3px;
+	/* padding-left: 2vw; */
+	line-height: 90px;
+  }
  
  .list-4 {
 	 line-height: 6vh;
@@ -550,6 +571,10 @@
  .mb_20 {
    margin-bottom: 20px;
  }
+
+ .pl_10 {
+	padding-left: 10px;
+  }
  
  .pl_20 {
    padding-left: 20px;
