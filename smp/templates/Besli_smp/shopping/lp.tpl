@@ -516,6 +516,7 @@
         <!--{/foreach}-->
         <input type="hidden" name="ajax_url" value="<!--{$ajax_url}-->" id="ajax_url" />
         <!--{* ↑編集しないでください↑ *}-->
+         <!--{captcha_form_lp_shopping}-->
     </form>
 </div>
 
