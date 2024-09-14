@@ -333,7 +333,7 @@ $(function(){
 <div id="lp_footer">
 <ul>
 <!--<li>会社概要</li>-->
-<li><a href="/smp/user_data/salesdeal.php" target="_blank">特定商取引法の表記</a></li>
+<li><a href="/order/index.php" target="_blank">特定商取引法の表記</a></li>
 <li><a href="/smp/user_data/privacy.php" target="_blank">プライバシーポリシー</a></li>
 <li><a href="/smp/contact/index.php" target="_blank">お問い合わせ</a></li>
 </ul>
