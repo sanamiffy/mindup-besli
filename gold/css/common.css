@@ -335,6 +335,8 @@
  .list-3 p {
 	padding-top: 12px;
  }
+
+ 
  
  .small-1 {
    font-size: small;
@@ -343,7 +345,6 @@
  .small-2 {
    font-size: 1.3rem;
    font-weight: bold;
-   color: #CC494A;
  }
 
  .small-3 {
@@ -411,6 +412,53 @@
  /* .some-wrapper {
 	border: solid 20px #DFEBFF;
  } */
+
+		/* 新しい記述 */
+
+		.wrapper_1 {
+			text-align: center;
+			font-size: 1.8rem;
+			line-height: 50px;
+		}
+
+
+
+	.p_1 {
+		font-size: 1.4rem;
+		margin: 0 auto;
+	}
+	
+	.p_2{
+		border-top: #333 solid 1px;
+		border-bottom: #333 solid 1px;
+		margin: 0 100px;
+	} 
+
+	.p_3 {
+		line-height: 20px;
+        padding-top: 25px;
+		margin: 0 auto;
+	 }
+	
+	 .p_4 {
+		font-size: 1rem;
+		line-height: 50px;
+		margin: 0 auto;
+	 }
+	
+	.del {
+		/* color: #DFEBFF; */
+	  text-decoration: line-through;
+	}
+	
+
+
+	.mindup_img_1 {
+		width: 60%;
+	}
+
+
+
  
  /* ================単品======================== */
  
@@ -483,6 +531,55 @@
    letter-spacing: 7.5px;
  }
 
+
+ /* 新しい記述 */
+
+ .wrapper_2 {
+	display: flex;
+}
+
+.wrapper_2 ul {
+	flex-direction: row;
+}
+
+.li-l {
+	width: 100%;
+	padding-top: 130px;
+	text-align: center;
+	letter-spacing: 3px;
+	line-height: 50px;
+	font-size: 1.6rem;
+}
+
+.point_1 {
+	line-height: 2vh;
+   color: #22324F;
+   font-size: 1rem;
+   text-align: center;
+   text-decoration: none;
+   margin: auto;
+   border-radius: 1vh;
+   border: solid 2px #22324F;
+   padding: 10px 15px 10px 20px;
+   letter-spacing: 7.5px;
+   width: 125px;
+}
+
+.p_5 {
+	margin: 0 auto;
+	font-size: 1.5rem;
+}
+
+.p_6 {
+	border-top: #333 solid 1px;
+		border-bottom: #333 solid 1px;
+		margin: 0 auto;
+}
+
+.p_7{
+	margin: 0 auto;
+}
+
  /* .single-wrapper {
 	border: solid 20px #DFEBFF;
  } */
@@ -546,8 +643,12 @@
  .fs_2 {
    font-size: 2rem;
  }
- 
+
  .fs_3 {
+	font-size: 2.5rem;
+ }
+ 
+ .fs_4 {
    font-size: 3rem;
  }
  
@@ -570,6 +671,10 @@
  
  .mb_20 {
    margin-bottom: 20px;
+ }
+
+ .ml_20 {
+	margin-left: 20px;
  }
 
  .pl_10 {
@@ -609,6 +714,10 @@
 
  .w_60 {
    width: 60%;
+ }
+
+ .w_65 {
+	width: 65%;
  }
  
  .w_30 {

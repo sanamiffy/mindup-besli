@@ -588,6 +588,29 @@
 	}
 
 
+
+	/* 新しい記述 */
+
+	.p_1 {
+		font-size: 1.4rem;
+	 }
+	
+	 .p_2 {
+    margin: 0 55px;
+	line-height: 35px;
+	font-size: 1.4rem;
+	 }
+	
+	 .p_3 {
+		line-height: 15px;
+		padding-top: 25px;
+	 }
+	
+	 .p_4 {
+		font-size: 1rem;
+		line-height: 30px;
+	 }
+
 		/*	単品  */
 
 
@@ -651,6 +674,29 @@
 	.buy-guide-item1::after {
 		height: 1px;
 		width: 80px;
+	}
+
+	/* 新しい記述 */
+
+	.li-l{
+		padding-top: 20px;
+	}
+
+	.p_5 {
+		font-size: 0.8rem;
+	}
+
+	.p_6{
+		font-size: 1rem;
+        margin: 0 40px;
+        line-height: 30px;
+	}
+
+	.point_1 {
+		line-height: 1vh;
+		font-size: 0.8rem;
+		border-radius: 0.8vh;
+		width: 125px;
 	}
 }
 

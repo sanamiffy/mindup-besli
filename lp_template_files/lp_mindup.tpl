@@ -211,10 +211,8 @@ $(function(){
         <p class="title-label">Mind&nbsp;Up</p>
         <p class="title-label-2">[&nbsp;マインドアップ&nbsp;]</p>
         <p class="label-2">定期お届け便</p>
-		<span class="w_60 m_0 mt_20 mb_20">
-        <img src="../../gold/img/mindup/others/last_pdt_img.jpg">
-		</span>
-        <ul class="m_0">
+        <img class="mindup_img_1" src="../../gold/img/mindup/others/last_pdt_img.jpg">
+        <!--<ul class="m_0">
             <li class="list-1"><p>初回<br>特別価格</p></li>
             <li class="list-2">
             <div class="buy-p">
@@ -237,7 +235,16 @@ $(function(){
             <li class="list-4">30日間全額返金保証</li>
             <li class="list-4">送料無料</li>
             <li class="list-4">健康相談付</li>
-        </ul>
+        </ul> -->
+
+        <div class="wrapper_1">
+                    <p class="p_1">初回通常価格<span class="del">4,980</span><span class="small-1">円</span><span class="small-1">（税込）</span></p>
+                    <p class="p_2">初回特別価格</p>
+                    <p class="p_3 fs_3"><span class="red">1,980</span><span class="small-2 red">円</span><span class="small-1 red">（税込）</span></p>
+                    <p class="p_4">2回目以降も<span>4,690</span><span class="small-3">円</span><span class="small-1">（税込）</span></p>
+                    </div>
+
+
         <a href="#form1" class="buy-btn white"><i class="fa-solid fa-play"></i>定期お届け便の申込みはこちら</a>
         <div class="buy">
              <p>※1袋 約1ヶ月分（90粒入）/ 1日3粒目安</p>
@@ -251,7 +258,7 @@ $(function(){
 
 		<divclass="single-wrapper>
         <h2 class="label-1">単品でのご注文</h2>
-        <ul>
+        <!-- <ul>
             <li class="pt_40"><img class="single pr_0 ta_c" src="../../gold/img/mindup/others/last_pdt_img.jpg"></li>
             <li><p class="title-label-single">Mind&nbsp;Up</p>
                 <p class="title-label-2-single">[&nbsp;マインドアップ&nbsp;]</p>
@@ -272,7 +279,19 @@ $(function(){
 				</ul>
                 </div>
             </li>
-        </ul>
+        </ul> -->
+
+        <div class="wrapper_2">
+                        <ul>
+                        <li class="pt_40"><img class="single" src="../../gold/img/mindup/others/last_pdt_img.jpg"></li>
+                        <li class="li-l">
+                                <p class="p_5">初回通常価格<span class="del">4,980</span><span class="small-2">円</span><span class="small-1">（税込）</span></p>
+                                <p class="p_6">初回特別価格</p>
+                                <p class="p_7"><span class="red fs_2">3,980</span><span class="small-2 red">円</span><span class="small-1 red">（税込）</span></p>
+                                <p class="point_1">送料無料</p></li>
+                            </li>
+                        </ul>
+                    </div>
         
         <a href="#form1" class="buy-btn"><i class="fa-solid fa-play"></i>単品でのご購入はこちら</a>
         <div class="buy">
