@@ -21,7 +21,7 @@
                 <!--{* 数量は適宜編集してください。*}-->
                 <td>
                 	<h3 class="no_bdr">数量</h3>
-                	<div class="custom-select w100">
+                	<div class="custom-select pl_20">
                       <select name="quantity" id="quantity" style="text-align:center;">
                           <!--{assign var=key1 value="quantity"}-->
                           <option value="1"<!--{if $arrForm[$key1] == '1'}--> selected="selected"<!--{/if}-->>1</option>
@@ -85,7 +85,7 @@
              </div>
              <div class="fl30">
               <div style="position:relative;top:15px;left:50px;">
-                <button class="lp_button w80" onclick="fnModeSubmit('login', '', '');">ログイン</button>
+                <button class="lp_button w80" onclick="fnModeSubmit('login', '', ''); ">ログイン</button>
                 <p class="pdt20"><a href="/forgot/index.php"><img src="<!--{$TPL_DIR}-->img/common/arrow_right.png" width="19" height="19" alt="" align="top" />パスワードを忘れた方はこちら</a></p>
               </div>
              </div>

@@ -436,7 +436,8 @@
         }
 
         #lpshoppingcolumn #quantity {
-        	width:65px !important;
+        	width: 100px !important;
+            text-align: left !important;
         }
 
         #payment_area #payment_methods em {
@@ -657,8 +658,8 @@
 	}
 
 	.buy-guide-item2 {
-		font-size: 0.6rem;
-		padding: 5px 10px;
+		font-size: 0.8rem;
+		padding: 8px 10px;
 	}
 
 	.buy-guige-item3 {

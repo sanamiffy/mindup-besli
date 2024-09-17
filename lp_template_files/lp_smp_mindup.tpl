@@ -321,12 +321,13 @@ $(function(){
                 <br>２）自動お届けコース休止・中止の受付とはタイミングが異なります。
                 <br>３）返金保証は<span class="red fw_b">定期購入コースのみ</span>が対象となります。
                 <br>４）全額返金は<span class="red fw_b">１袋のみ</span>が対象となり２袋以上の開封で無効となります。
-                <br>５）全額返金保証で返品される場合は<span>事前のメール</span>でのご連絡が必要です。
+                <br>５）全額返金保証で返品される場合は<span>事前のメール</span>でのご連絡が
+                <br>&emsp;&emsp;必要です。
                 <br>６）返品送料及び振込手数料はお客様のご負担となります。
                 <br>&nbsp;&nbsp;&nbsp;（返金全額から振込手数料を差し引いた金額をお支払い致します）
                 <br>７）返金はクレジット決済の場合はキャンセル処理、後払いの場合は
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;銀行振り込みによる返金となり、返品商品が到着した月の末締め翌月末払いでの
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ご返金となります。
+                <br>&emsp;&emsp;銀行振り込みによる返金となり、返品商品が到着した月の末締め
+                <br>&emsp;&emsp;翌月末払いでのご返金となります。
             </p>
             <p class="buy-guide-item2">お支払いについて</p>
             <p class="buy-guige-item3"><span class="red fw_b">クレジットカード&nbsp;/&nbsp;コンビニ決済（後払い）</span></p>
