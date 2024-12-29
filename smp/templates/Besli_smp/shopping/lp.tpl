@@ -464,7 +464,7 @@
         </div>
         <!--{/if}-->
 
-        <div class="smp-lp-section">
+        <div class="smp-lp-section ta_c">
             <h3>個人情報のお取り扱いについて</h3>
             <dl>
                 <!--{if $register != 2}--><!--{* 非ログイン時のみ表示されます *}-->
@@ -493,8 +493,8 @@
 
         <!--購入確認画面-->
         <div class="smp-lp-bottomline">
-            <div class="smp-lp-section">
-                <img src="<!--{$TPL_DIR}-->img/common/lp_step.png" alt="LPのステップ" align="middle" /><br />
+            <div class="smp-lp-section ta_c">
+                <img class="w_90" src="<!--{$TPL_DIR}-->img/common/lp_step.png" alt="LPのステップ" align="middle" /><br />
                 <span class="smp-lp-error smp-lp-confirm" id="alert_errors" <!--{if !$arrErr}-->style="display:none;"<!--{/if}-->>
                 <!--{if $arrErr}-->
                     <!--{foreach from=$arrErr key=key item=item}-->
@@ -534,7 +534,7 @@
     var position = p_id_target.offset().top - 20; // この数値は適宜修正してください
     $('html, body').animate({scrollTop: position}, 400, 'swing');
 <!--{elseif $loginerror}--> <!--{* ログイン失敗時 *}-->
-    var p_id_target = $('#lp-login'); // 基準となる位置のidを指定してください
+    var p_id_target = $('#mu_lp_form'); // 基準となる位置のidを指定してください
     var position = p_id_target.offset().top - 20; // この数値は適宜修正してください
     $('html, body').animate({scrollTop: position}, 400, 'swing');
 <!--{elseif $return_from_confirm}--> <!--{* 確認画面からの戻り時 *}-->

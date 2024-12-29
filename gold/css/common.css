@@ -203,6 +203,60 @@
    -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
    box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
  }
+
+  /* =========初回限定============== */
+ /* 左右に横線 */
+ .guarantee {
+	align-items: center; /* 横線を上下中央 */
+	display: flex; /* 文字と横線を横並び */
+	justify-content: center; /* 文字を中央寄せ */
+	font-size: 1.5rem;
+	 padding: 10px 0;
+  }
+
+  .guarantee::before,
+ .guarantee::after {
+   background-color: #fff; /* 横線の色 */
+   content: "";
+   height: 2px; /* 横線の高さ */
+   width: 100px; /* 横線の長さ */
+ }
+ .guarantee::before {
+   margin-right: 15px; /* 文字との余白 */
+ }
+ .guarantee::after {
+   margin-left: 15px; /* 文字との余白 */
+ }
+
+ .buy-btn2 {
+	width: 650px;
+	height: 16vh;
+	background-image: -webkit-linear-gradient(left, #2480BC 40%, #03358A 100%);
+	/* background-image: linear-gradient(90deg, #2480BC 40%, #03358A 100%); */
+	color: #fff;
+	font-size: 2.4rem;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+	line-height :6vh;
+	border-radius: 3vh;
+	text-decoration: none;
+	padding-top: 30px;
+	margin-top: 40px;
+    margin-bottom: 40px;
+ }
+ 
+ .fa-solid {
+   margin-right: 5px;
+ }
+ 
+ .buy-btn2:hover {
+   -webkit-transform: translate(0, -2px);
+   transform: translate(0, -2px);
+   color: #fff;
+   -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+   box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+ }
  
  /* ==================定期購入===================== */
  
@@ -402,7 +456,6 @@
 	 font-size: 1.5rem;
 	 text-align: center;
 	 text-decoration: none;
-	 margin: auto;
 	 border-radius: 2vh;
 	 border: solid 2px #22324F;
 	 padding: 5px 20px;
@@ -664,6 +717,11 @@
  .m_0 {
    margin: 0 auto;
  }
+
+ .d_d{
+	display: flex;
+	flex-direction: row;
+ }
  
  .mt_20 {
    margin-top: 20px;
@@ -673,8 +731,16 @@
    margin-bottom: 20px;
  }
 
+ .ml_10 {
+	margin-left: 10px;
+ }
+
  .ml_20 {
 	margin-left: 20px;
+ }
+
+ .mr_10 {
+	margin-right: 10px;
  }
 
  .pl_10 {
@@ -706,6 +772,10 @@
  .white {
    color: #fff;
  }
+
+ .yellow {
+	color: #DCEBC0;
+ }
  
  /* ========================サイズ============================ */
  .w_40{
@@ -718,6 +788,18 @@
 
  .w_65 {
 	width: 65%;
+ }
+
+ .w_70 {
+	width: 70%;
+ }
+
+ .w_80 {
+	width: 80%;
+ }
+
+ .w_90 {
+	width: 90%;
  }
  
  .w_30 {
@@ -733,6 +815,37 @@
  }
  
 		 
+ /* カードページ */
+.card h1 {
+	border-bottom: #aaa solid 1px;
+    padding-bottom: 15px;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.card h2 {
+	font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+	margin-bottom: 30px;
+}
+
+.card img {
+	margin-bottom: 50px;
+	border: solid 1px #000000;
+}
+
+.link {
+	text-decoration: underline;
+}
 
 
 	

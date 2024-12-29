@@ -3,14 +3,17 @@
 
 /*	トップページ  */
 		
-		#top_smp_mainban{
-			width:100%;
-			margin:20px 0;}
+#top_smp_mainban{
+	width:100%;
+	margin:20px 0;
+	text-align: center;
+}
 			
-		#top_smp_mainban img{
-			width:90%;
-			margin:0 5%;
-			border:1px #666666 solid;}
+			
+#top_smp_mainban img{
+	width:60%;
+	margin:0 5%;
+	border:1px #666666 solid;}
 
 
 #guidecolumn{
@@ -54,4 +57,14 @@
 	margin-bottom:25px;}
 	
 	
-	
+	@media screen and (max-width:499px){
+				
+		
+		#top_smp_mainban img{
+			width:82%;
+			margin:0 5%;
+			border:1px #666666 solid;}
+			
+			
+			
+		}

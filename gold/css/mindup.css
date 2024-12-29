@@ -354,4 +354,74 @@
 		#lp_footer ul li a{color:#FFF; font-weight:normal;}
 		#lp_footer ul li a:hover{color:#DDD;}
 
-		
+		/* QAページ */
+
+/* .q-contents {
+	background-color:#c9dafc;
+	position:fixed;
+	top:100px;
+	left: 40px;
+} */
+
+.q-wrapper{
+	line-height: 25px;
+}
+
+.question h1{
+	border-bottom: #aaa solid 1px;
+	padding-bottom: 10px;
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+    font-size: 2rem;
+	font-weight:500;
+}
+
+.q-wrapper h2 {
+	border-bottom: #aaa solid 2px;
+	margin-top: 70px;
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+} 
+
+.q-detail{
+	display: flex;
+	flex-direction: row;
+	font-size: 1rem;
+}
+
+.mb_30 {
+	margin-bottom: 30px;
+}
+
+.pr_10 {
+	padding-right: 10px;
+}
+
+.pb_10 {
+	padding-bottom: 10px;
+}
+
+.pb_40 {
+	padding-bottom: 40px;
+}
+
+.fs_08 {
+	font-size: 0.8rem;
+}
+
+.bb {
+	border-bottom: #aaa 1px solid;
+}
+
+.blue {
+	color: #c9dafc;
+	font-size: 1.8rem;
+}
+
+.green {
+	color: #CBD79C;
+	font-size: 1.8rem;
+}

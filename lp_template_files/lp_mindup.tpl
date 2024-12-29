@@ -32,7 +32,9 @@ $(function(){
 
 
 <!--トップ購入1ボタン-->
-<a href="#buy_select"><img src="../../gold/img/mindup/buy/top_buy_btn_smt.jpg" alt="購入ボタン" /></a>
+<!--<a href="#buy_select"><img src="../../gold/img/mindup/buy/top_buy_btn_smt.jpg" alt="購入ボタン" /></a>-->
+<a href="#form1" class="buy-btn2 white"><i class="fa-solid fa-play"></i><span class="yellow">初回限定価格</span>で試す<br><span class="guarantee">30日間返金保証付き</span></a>
+
 
 
 <!--トップ_おすすめ-->
@@ -243,6 +245,12 @@ $(function(){
                     <p class="p_3 fs_3"><span class="red">1,980</span><span class="small-2 red">円</span><span class="small-1 red">（税込）</span></p>
                     <p class="p_4">2回目以降も<span>4,690</span><span class="small-3">円</span><span class="small-1">（税込）</span></p>
                     </div>
+
+                    <ul>
+                    <li class="list-4">30日間全額返金保証</li>
+                    <li class="list-4">送料無料</li>
+                    <li class="list-4">健康相談付</li>
+                </ul>
 
 
         <a href="#form1" class="buy-btn white"><i class="fa-solid fa-play"></i>定期お届け便の申込みはこちら</a>

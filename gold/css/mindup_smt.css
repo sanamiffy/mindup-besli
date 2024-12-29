@@ -557,8 +557,8 @@
 	.list-4 {
 		line-height: 3vh;
         border-radius: 1vh;
-        font-size: 0.6rem;
-        padding: 5px 10px;
+        font-size: 0.5rem;
+        padding: 5px 8px;
         margin-bottom: 6px;
     }
 
@@ -680,15 +680,15 @@
 	/* 新しい記述 */
 
 	.li-l{
-		padding-top: 20px;
+		padding-top: 0px;
 	}
 
 	.p_5 {
-		font-size: 0.8rem;
+		font-size: 0.6rem;
 	}
 
 	.p_6{
-		font-size: 1rem;
+		font-size: 0.8rem;
         margin: 0 40px;
         line-height: 30px;
 	}

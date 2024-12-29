@@ -244,6 +244,14 @@ $(function(){
         <p class="p_3"><span class="red fs_3">1,980</span><span class="small-2 red">円</span><span class="small-1 red">（税込）</span></p>
         <p class="p_4">2回目以降も<span>4,690</span><span class="small-3">円</span><span class="small-1">（税込）</span></p>
         </div>
+
+        <ul>
+        <div class="m_0 d_d">
+        <li class="list-4">30日間全額返金保証</li>
+        <li class="list-4 ml_10 mr_10">送料無料</li>
+        <li class="list-4">健康相談付</li>
+        </div>
+        </ul>
         
         <div class="text_c"><a href="#form1" class="buy-btn white"><i class="fa-solid fa-play"></i>定期お届け便の申込みはこちら</a></div>
         <div class="buy">
@@ -298,7 +306,7 @@ $(function(){
         <div class="text_c"><a href="#form1" class="buy-btn"><i class="fa-solid fa-play"></i>単品でのご購入はこちら</a></div>
         <div class="buy">
             <p>※1袋 約1ヶ月分（90粒入）/ 1日3粒目安</p>
-            <p>※「クレジット決済」または「コンビニ決済（後払い）」が<br>&emsp;&nbsp;可能です。</p>
+            <p>※「クレジット決済」または<br>&emsp;&nbsp;「コンビニ決済（後払い）」が可能です。</p>
             <p>※購入後の返金はできません。</p>
         </div>
 		</div>

@@ -318,7 +318,7 @@ function _activateCardInfo()
 						<input <!--{if $arrForm[$key1].value == 1}-->checked="checked"<!--{/if}--> type="radio" name="<!--{$key1}-->" value="1" id="<!--{$key1}-->_1" style="<!--{$arrErr[$key1]|sfGetErrorColor}-->"  /><label for="<!--{$key1}-->_1" >する</label>
 						<input <!--{if $arrForm[$key1].value == 2 || !$arrForm[$key1].value}-->checked="checked"<!--{/if}--> type="radio" name="<!--{$key1}-->" value="2" id="<!--{$key1}-->_2" style="<!--{$arrErr[$key1]|sfGetErrorColor}-->"  /><label for="<!--{$key1}-->_2" >しない</label><br />
 						<span class="attention"><!--{$arrErr[$key1]}--></span><br /><br />
-						<span class="attention">※ご登録いただけるカードの枚数上限は2枚までです。</span>
+						<span class="attention">※ご登録いただけるカードの枚数上限は5枚までです。</span>
 					</td>
 				</tr>
 				<!--{else}-->

@@ -14,14 +14,14 @@
 		#other_pg_logo img{
 			width:60%;
 			padding:0 20%;
-			margin:20px 0 0 0;}
+			margin:20px 0 40px 0;}
 			
 		
 		
 		#other_pg{
-			width:90%;
-			padding:50px 5%;
-			text-align:center;
+			/* width:90%; */
+			padding:50px 15%;
+			/* text-align:center; */
 			font-size:13px !important;
 			line-height:200%;
 			letter-spacing:0;}
@@ -31,7 +31,12 @@
 		.other_pg_tit{
 			font-size:18px;
 			font-weight:bold;
-			margin:50px 0;}
+			margin:50px 0;
+			text-align: center;
+			border-bottom: 1px solid;
+			padding-bottom: 15px;
+		}
+			
 			
 		#salesdeal_list table{
 			width:100%;

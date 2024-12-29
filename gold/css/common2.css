@@ -5,10 +5,13 @@
 		
 		#top_smp_mainban{
 			width:100%;
-			margin:20px 0;}
+			margin:20px 0;
+			text-align: center;
+		}
+			
 			
 		#top_smp_mainban img{
-			width:90%;
+			width:60%;
 			margin:0 5%;
 			border:1px #666666 solid;}
 
@@ -49,4 +52,5 @@
 #guidecolumn_smp td{
 	width:60% !important;}
 	
-	
+}
+
